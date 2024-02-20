@@ -23,26 +23,23 @@
   src: url(../fonts/Inter-VariableFont_slnt\wght.ttf);
 }
 
-html,
 body {
   /* overflow-x: hidden;
   overflow-y: hidden; */
-}
-
-.mobile {
-  /* position: relative; */
+  /* width: 100%; */
+  width: fit-content;
+  max-width: 100% !important;
   width: auto;
   min-width: 1280px;
-  height: auto;
 }
 
 .main_page {
   max-width: 100%;
   background-image: url(../images/hi-rezback.jpg);
-  width: 100%;
+  /* width: 100vw; */
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
   font-family: Alegreyasans;
   display: grid;
   grid-template-columns: 45% 55%;
@@ -126,13 +123,17 @@ body {
 .release_slide,
 .project_side {
   background-color: #aaaaaa;
-  width: 30%;
+  width: 600px;
   height: 100%;
   position: absolute;
   top: 0;
   right: 0;
   text-align: right;
   display: none;
+}
+
+.release_slide {
+  width: 500px !important;
 }
 
 .release_slide a {
@@ -213,10 +214,10 @@ body {
 @media (max-width: 1601px) {
   .project_side,
   .about {
-    width: 40%;
+    width: 500px;
   }
   .release_slide {
-    width: 30%;
+    width: 350px;
   }
   .release_slide a {
     font-size: 36px;
