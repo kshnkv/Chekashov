@@ -26,16 +26,17 @@
   background-color: #565656 !important;
 }
 
-html,
 body {
-  overflow-x: hidden;
-  overflow-y: hidden;
+  width: fit-content;
+  max-width: 100% !important;
+  width: auto;
   min-width: 1280px;
 }
 
 .gallery {
   background-color: black;
   height: 100vh;
+  max-height: 1500px;
   display: flex;
 }
 
