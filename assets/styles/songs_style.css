@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Bloggersans;
+  src: url(../fonts/Bloggersans.ttf);
+}
+
+@font-face {
+  font-family: Bloggersans;
+  src: url(../fonts/Bloggersansmedium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Bloggersans;
+  src: url(../fonts/Bloggersanslight.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Alegreyasans;
+  src: url(../fonts/Alegreyasansmedium.ttf);
+}
+
+@font-face {
+  font-family: Antarctic;
+  src: url(../fonts/Antarctic.otf);
+}
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+  min-width: 1280px;
+}
+
+.header {
+  padding: 60px;
+  width: 100vw;
+  display: flex;
+}
+
+.header img {
+  text-align: right;
+}
+
+.head {
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+.head p {
+  font-family: Antarctic;
+  font-size: 85px;
+  margin: auto;
+  color: #939598;
+  text-align: center;
+}
+
+.authors {
+  font-family: Bloggersans;
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+}
+
+.track_list {
+  font-family: Bloggersans;
+  font-size: 30px;
+  color: white;
+  width: 50vw;
+}
+
+.cover-block {
+  display: flex;
+}
+
+.main-block {
+  padding: 0 100px 100px 100px;
+}
+
+.cover-art {
+  margin: 0px 50px 70px 0px;
+}
+
+.cover-art img {
+  height: 700px;
+}
+
+.song_slider {
+  display: flex;
+  overflow-x: auto;
+}
+
+.song_slider_el {
+  font-family: Bloggersans;
+  color: #8f8f8f;
+  display: flex;
+  padding: 40px;
+  width: 100vw;
+}
+
+#toggleButton {
+  rotate: 180deg;
+}
+
+.yt_link {
+  color: white;
+}
+
+@media (max-width: 1601px) {
+  .cover-art img {
+    height: 539px;
+  }
+
+  p {
+    font-size: 24px !important;
+  }
+
+  .head p {
+    font-size: 70px !important;
+  }
+
+  .main-block {
+    padding: 0 70px 70px 70px;
+  }
+
+  .cover-art {
+    margin: 0px 30px 45px 0px;
+  }
+}

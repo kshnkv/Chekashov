@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Bloggersans;
+    src: url(../fonts/Bloggersans.ttf);
+}
+
+@font-face {
+    font-family: Bloggersans;
+    src: url(../fonts/Bloggersansmedium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Bloggersans;
+    src: url(../fonts/Bloggersanslight.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Alegreyasans;
+    src: url(../fonts/Alegreyasansmedium.ttf);
+}
+
+@font-face {
+    font-family: Antarctic;
+    src: url(../fonts/Antarctic.otf);
+}
+
+section {
+    padding: 60px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.head p {
+    font-family: Antarctic;
+    font-size: 85px;
+    margin-left: -150px;
+    color: #939598;
+    text-align: center;
+}
+
+.borders {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 25px 0;
+    margin: 50px 0;
+    font-size: 39px;
+}
+
+.text_block {
+    font-family: Bloggersans;
+}
+
+.text_block h1{
+    font-size: 36px;
+    margin: 0px 0 25px 0;
+}
+
+.basic_p{
+    font-size: 28px;
+    text-indent: 10px;
+    text-align: justify;
+}
+
+.press-block h1 {
+    font-family: Bloggersans;
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.press-block p {
+    font-family: Bloggersans;
+    font-size: 30px;
+    font-weight: 400;
+    text-indent: 20px;
+}
+
+.author {
+    padding: 20px 0px 100px 20px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Bloggersans;   
+}
+
+.image_block {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image_block img{
+    /* width: 100%; */
+    margin: 0 10px;
+    /* width: 100%;
+    height: auto; */
+}
+
+.source {
+    margin-top: 60px;
+    font-family: Bloggersans;
+    font-size: 36px;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.quote {
+    margin: 70px 0 70px 0;
+    padding: 30px 0 30px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.quote p {
+    font-family: Bloggersans;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.smi_image{
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+}
+
+.smi_list {
+    font-size: 28px;
+    margin-left: 28px;
+}
+
+.smi_name {
+    margin-top: -150px;
+    font-size: 260px !important;
+}

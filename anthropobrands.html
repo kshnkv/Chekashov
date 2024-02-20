@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="./assets/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Антропобренды</title>
+    <link rel="stylesheet" href="./assets/styles/archive_style.css">
+</head>
+
+<body>
+    <div class="preview" onclick="hideFull()">
+        <div>
+            <img loading="lazy" id="fullImg" src="./assets/images/posters_full/chee-z-screen.jpg" alt="">
+        </div>
+    </div>
+    <div class="gallery background_white">
+        <div class="info_block">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/images/logo_dark.svg" alt="Logo">
+                </a>
+            </div>
+            <div class="time_block">
+                <p class="name_pr">
+                    Антропобренды
+                </p>
+            </div>
+            <div class="arrow">
+                <a href="">
+                    <img src="./assets/images/arrow_black.svg" alt="arrow">
+                </a>
+            </div>
+        </div>
+        <div class="slider" id="scroll-container">
+            <div class="slider_el lefter_arch">
+                <div class="image_info">
+                    <p class="image_header">
+                        А. ТАРКОВСКИЙ
+                    </p>
+                    <p class="image_text">
+                        2022 <br>
+                        оригинал.графика, <br>
+                        комп.доработка, принт <br>
+                        100 Х 150 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/01_tark.jpg"
+                        alt="image">
+                </div>
+            </div>
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        LEONARDO
+                    </p>
+                    <p class="image_text">
+                        2021 <br>
+                        оригинал.техника, принт <br>
+                        100 Х 150
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/02_leo.jpg"
+                        alt="image">
+                </div>
+            </div>
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        А. САВРАСОВ — ПЕВЕЦ <br>
+                        РУССКОЙ ПРИРОДЫ
+                    </p>
+                    <p class="image_text">
+                        2019 <br>
+                        х., м., 200 Х 150 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/03_savra.jpg"
+                        alt="image">
+                </div>
+            </div>
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        В. ГИЛЯРОВСКИЙ — КОРОЛЬ <br>
+                        РЕПОРТЕРОВ
+                    </p>
+                    <p class="image_text">
+                        2018 <br>
+                        х., м., 200 Х 150 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/04_gil.jpg"
+                        alt="image">
+                </div>
+            </div>
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        Л. ЯШИН — ЛУЧШИЙ <br>
+                        ВРАТАРЬ МИРА
+                    </p>
+                    <p class="image_text">
+                        2018 <br>
+                        х., м., 200 Х 150 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/05_yashin.jpg"
+                        alt="image">
+                </div>
+            </div>
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        Э. ПИАФия
+                    </p>
+                    <p class="image_text">
+                        2016 <br>
+                        х., м., 200 X 150 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/06_epi.jpg"
+                        alt="image">
+                </div>
+            </div>
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        SPHINX
+                    </p>
+                    <p class="image_text">
+                        2016 <br>
+                        х., м., 200 X 150 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/07_SPHINX.jpg"
+                        alt="image">
+                </div>
+            </div>
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        Ф. ДОСТОЕВСКИЙ
+                    </p>
+                    <p class="image_text">
+                        2016 <br>
+                        оригинал.графика, <br>
+                        комп.доработка, принт <br>
+                        80 Х 100 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/08_dosto.jpg"
+                        alt="image">
+                </div>
+            </div>
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        Панно <br>
+                        КУЛЬТУРА
+                    </p>
+                    <p class="image_text">
+                        2016 <br>
+                        оригинал.графика, <br>
+                        комп.доработка, принт <br>
+                        500 Х 250 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/09_panno.jpg"
+                        alt="image">
+                </div>
+            </div>
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ШАГАЛ
+                    </p>
+                    <p class="image_text">
+                        2017 <br>
+                        оригинал.техника, принт <br>
+                        100 X 150 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/10_shagal.jpg"
+                        alt="image">
+                </div>
+            </div>
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        В. КАНДИНСКИЙ
+                    </p>
+                    <p class="image_text">
+                        2016 <br>
+                        оригинал.графика, <br>
+                        комп.доработка, принт <br>
+                        100 X 140 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/11_kand.jpg"
+                        alt="image">
+                </div>
+            </div>
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        М. ЛЕРМОНТОВ
+                    </p>
+                    <p class="image_text">
+                        2014 <br>
+                        оригинал.графика, принт <br>
+                        100 X 140 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/antropobrand/12_lerm.JPG"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="info_block menuing_ant">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./assets/images/logo_dark.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="time_block">
+                    <p class="name_pr">
+                        Антропобренды
+                    </p>
+                </div>
+                <div class="arrow">
+                    <a onclick=scrollToStart()>
+                        <img src="./assets/images/arrow_black.svg" alt="arrow">
+                    </a>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="./assets/scripts/project_script.js"></script>
+
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="./assets/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Биопунктура</title>
+    <link rel="stylesheet" href="./assets/styles/archive_style.css">
+</head>
+
+<body>
+    <div class="preview" onclick="hideFull()">
+        <div>
+            <img loading="lazy" id="fullImg" src="./assets/images/posters_full/chee-z-screen.jpg" alt="">
+        </div>
+    </div>
+    <div class="gallery background_grey">
+        <div class="info_block">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/images/logo_dark.svg" alt="Logo">
+                </a>
+            </div>
+            <div class="time_block">
+                <p class="name_pr">
+                    Биопунктура
+                </p>
+            </div>
+            <div class="arrow">
+                <a href="">
+                    <img src="./assets/images/arrow_left.svg" alt="arrow">
+                </a>
+            </div>
+        </div>
+        <div class="slider" id="scroll-container">
+            <div class="slider_el lefter_pr">
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_1.jpg"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        КАББАЛИСТИЧЕСКИЙ МОТИВ
+                    </p>
+                    <p class="image_text">
+                        2014 <br>
+                        х., м., 140 Х 120 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_2.jpeg"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ACIPENSER STYLE
+                    </p>
+                    <p class="image_text">
+                        2012 <br>
+                        х., м., 140 Х 90 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_3.JPG"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ИЗ ГЛУБИНЫ ИДЁТ
+                    </p>
+                    <p class="image_text">
+                        2014 <br>
+                        х., м., 140 Х 90 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_4.jpg"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        POMORIN
+                    </p>
+                    <p class="image_text">
+                        2011 <br>
+                        х., м., кар. <br>
+                        80 Х 60 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_5.JPG"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+
+                        БЕЗ НАЗВАНИЯ
+                    </p>
+                    <p class="image_text">
+                        2010 <br>
+                        х., м., орех <br>
+                        состарен.тон. <br>
+                        80 Х 80 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_6.jpg"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+
+                        ОТ СУМ(М)Ы...
+                    </p>
+                    <p class="image_text">
+                        009 <br>
+                        х., м., дуб <br>
+                        состарен.тон. <br>
+                        80 Х 80 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_7.jpg"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+
+                        БЕЗ НАЗВАНИЯ
+                    </p>
+                    <p class="image_text">
+                        2009 <br>
+                        х., м., венге <br>
+                        80 Х 50 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_8.png"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        АНТРОПОРАПТОР
+                    </p>
+                    <p class="image_text">
+                        2016 <br>
+                        х., м., орех состарен. <br>
+                        95 Х 75 см
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_9.png"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="no_desc">
+                        ПАНОРАМА ИНСТАЛЛЯЦИИ
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_10.jpeg"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="no_desc">
+                        ОБЩИЙ ВИД ИНСТАЛЛЯЦИИ
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_11.png"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        КОРОБКА ДЛЯ СЛАДОСТЕЙ
+                    </p>
+                    <p class="image_text">
+                        из отбор.сортов березы <br>
+                        / Австрия, 1963 / <br>
+                        наручники для человека
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_12.png"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ЯЩИК ДЛЯ ПАТРОНОВ
+                    </p>
+                    <p class="image_text">
+                        из натур.дуба окрашен. <br>
+                        / Германия, 1941 / <br>
+                        концерт.перчатки человека / женщина /
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_13.png"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        КОРОБКА ДЛЯ КОНФЕТ
+                    </p>
+                    <p class="image_text">
+                        из металла хромиров. окрашен. <br>
+                        / Франция, Париж, 1985 / <br>
+                        искусств.еда человека
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_14.png"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ТАБАКЕРКА
+                    </p>
+                    <p class="image_text">
+                        из металла окрашен. <br>
+                        / Россия, Санкт-Петербург, 1904 / <br>
+                        волосы пожилого человека / мужчина /
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_15.png"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="no_desc">
+                        ОБЩИЙ ВИД ИНСТАЛЛЯЦИИ
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_16.png"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        СВЕТИЛЬНИКИ
+                    </p>
+                    <p class="image_text">
+                        / h-160 см каждый / для жилища человека. <br>
+                        металл окрашен., стекло пескоструйное, <br>
+                        керамика на костной муке крупно-рогатых животных, <br>
+                        шамот, титан. напыление, электрика <br>
+                        / авт. В. Чекашов, 2007 / <br> <br>
+                        муляж быка в натур.величину. <br>
+                        бинты, марля <br>
+                        / авт. В. Чекашов, 2013 /
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_17.png"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        АРТ-ОБЪЕКТ
+                    </p>
+                    <p class="image_text">
+                        для музея современного <br>
+                        искусства человека / h-220см / <br>
+                        натур.кожа анаконды, <br>
+                        металл.каркас, поролон. <br>
+                        / авт. В. Чекашов, 2007 / <br> <br>
+                        муляж питона в натур.величину. <br>
+                        бинты, марля. <br>
+                        / авт. В. Чекашов, 2013 /
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_18.png"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        КРЕСЛО
+                    </p>
+                    <p class="image_text">
+                        для делового кабинета человека. <br>
+                        натур.кожа окрашен., бук тониров., <br>
+                        натур.кокосовое волокно. <br>
+                        / авт. В. Чекашов, 2009 / <br> <br>
+                        манекен человека в натур.величину.<br>
+                        бинты, марля
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/image_19.png"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        инсталляция <br> БОМЖИ
+                    </p>
+                    <p class="image_text">
+                        фото, плёнка <br>
+                        40 кв.м
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/biopuncture/bomzhi.jpg"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slder_el">
+                <div class="vimeo">
+                    <iframe src="https://player.vimeo.com/video/232240127?h=80d22b35a6" width="1000" height="100%"
+                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="info_block menuing_bio">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./assets/images/logo_dark.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="time_block">
+                    <p class="name_pr">
+                        Биопунктура
+                    </p>
+                </div>
+                <div class="arrow">
+                    <a onclick=scrollToStart()>
+                        <img src="./assets/images/arrow_left.svg" alt="arrow">
+                    </a>
+                </div>
+            </div>
+
+
+</body>
+<script src="./assets/scripts/project_script.js"></script>
+
+</html>

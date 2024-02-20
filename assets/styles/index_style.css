@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Bloggersans;
+  src: url(../fonts/Bloggersans.ttf);
+}
+
+@font-face {
+  font-family: Alegreyasans;
+  src: url(../fonts/Alegreyasansmedium.ttf);
+}
+
+@font-face {
+  font-family: Antarctic;
+  src: url(../fonts/Antarctic.otf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
+html,
+body {
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+}
+
+.mobile {
+  /* position: relative; */
+  width: auto;
+  min-width: 1280px;
+  height: auto;
+}
+
+.main_page {
+  max-width: 100%;
+  background-image: url(../images/hi-rezback.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: Alegreyasans;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  padding-top: 40px;
+  position: relative;
+}
+
+.logo_block {
+  padding-left: 50%;
+}
+
+.artist {
+  color: #8b0018;
+  font-weight: 500;
+  font-size: 26px;
+  margin-left: 220px;
+  text-decoration: none;
+}
+
+.menu_bar {
+  text-align: right;
+  margin-right: 70px;
+}
+
+.menu_bar a {
+  font-family: Antarctic;
+  text-decoration: none;
+  color: #8b0018;
+}
+
+.contact {
+  font-family: Inter !important;
+  font-size: 25px;
+  color: #aaaaaa;
+}
+
+.contact p {
+  margin-right: 108px;
+}
+
+.contact_mail {
+  font-family: Inter !important;
+  color: #8b0018;
+  -webkit-text-stroke: none !important;
+}
+
+.archive {
+  font-size: 60px;
+  margin: 60px -10px 30px 0;
+  -webkit-text-stroke: 1px #8b0018;
+}
+
+.releases {
+  font-size: 90px;
+  margin: 0px 10px 0px 0;
+  -webkit-text-stroke: 1px #8b0018;
+}
+
+.events {
+  font-size: 110px;
+  margin: 30px 0 35px 0;
+  -webkit-text-stroke: 1px #8b0018;
+}
+
+.posters {
+  font-size: 120px;
+  margin: 0 90px 0px 0;
+  -webkit-text-stroke: 1px #8b0018;
+}
+
+.projects {
+  font-size: 160px;
+  margin: 0px 230px 0px 0;
+  -webkit-text-stroke: 1px #8b0018;
+}
+
+.menu_bar img:hover {
+  cursor: pointer;
+}
+
+.release_slide,
+.project_side {
+  background-color: #aaaaaa;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  display: none;
+}
+
+.release_slide a {
+  font-family: Bloggersans;
+  color: black;
+  text-decoration: none;
+  font-size: 45px;
+}
+
+.project_side a {
+  font-family: Bloggersans;
+  color: black;
+  text-decoration: none;
+  font-size: 36px;
+}
+
+.menu_link {
+  margin: 40px 40px 40px 0;
+}
+
+.cross {
+  width: 40px;
+  margin: 40px;
+}
+
+.menu_p {
+  font-family: Antarctic;
+  color: white;
+  -webkit-text-stroke: 1px white;
+  margin-right: 40px;
+  font-size: 150px;
+}
+
+.project_side .menu_p {
+  font-size: 100px;
+}
+
+.menu_link span {
+  font-size: 26px;
+}
+
+.more:hover,
+.menu_link a:hover {
+  color: white;
+}
+
+.about {
+  background-color: #000000;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  display: none;
+}
+
+.about p {
+  font-family: Bloggersans;
+  color: #ffffff;
+  font-size: 28px;
+  margin: 45% 0 25% 0;
+}
+
+.about a {
+  text-decoration: none;
+  font-family: Bloggersans;
+  color: #545050;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.cross_block {
+  display: flex;
+  justify-content: right;
+}
+
+@media (max-width: 1601px) {
+  .project_side,
+  .about {
+    width: 40%;
+  }
+  .release_slide {
+    width: 30%;
+  }
+  .release_slide a {
+    font-size: 36px;
+  }
+
+  .project_side a {
+    font-size: 32px;
+  }
+
+  .menu_p {
+    font-size: 100px;
+    margin-bottom: 30px;
+  }
+
+  .archive {
+    font-size: 40px;
+    margin: 40px -10px 20px 0;
+  }
+
+  .releases {
+    font-size: 55px;
+    margin: 0px 10px 0px 0;
+  }
+
+  .events {
+    font-size: 70px;
+    margin: 20px 0 25px 0;
+  }
+
+  .posters {
+    font-size: 85px;
+    margin: 0 40px 10px 0;
+  }
+
+  .projects {
+    font-size: 100px;
+    margin: 0px 170px 0px 0;
+  }
+
+  .menu_link {
+    margin: 20px 20px 20px 0;
+  }
+
+  .about p {
+    font-size: 22px;
+    margin: 25% 0 25% 0;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
+@keyframes slideOutToRight {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.slide-out {
+  animation: 1s ease-out 0s 1 slideOutToRight;
+}
