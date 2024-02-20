@@ -4,12 +4,11 @@
 <head>
     <link rel="icon" href="./assets/images/favicon.ico">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ВРЕМЯ Ч</title>
     <link rel="stylesheet" href="./assets/styles/archive_style.css">
 </head>
 
-<body>
+<body class="background_black">
     <div class="preview" onclick="hideFull()">
         <div>
             <img loading="lazy" id="fullImg" src="./assets/images/posters_full/chee-z-screen.jpg" alt="">
@@ -29,6 +28,23 @@
             </div>
             <div class="arrow">
                 <a href="">
+                    <img src="./assets/images/arrow_left.svg" alt="arrow">
+                </a>
+            </div>
+        </div>
+        <div class="info_block menuing">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/images/logo_dark.svg" alt="Logo">
+                </a>
+            </div>
+            <div class="time_block">
+                <p class="name_pr">
+                    Время Ч
+                </p>
+            </div>
+            <div class="arrow">
+                <a onclick=scrollToStart()>
                     <img src="./assets/images/arrow_left.svg" alt="arrow">
                 </a>
             </div>
@@ -595,23 +611,9 @@
                 </div>
             </div>
 
-            <div class="info_block menuing_arch">
-                <div class="logo">
-                    <a href="./index.html">
-                        <img src="./assets/images/logo_dark.svg" alt="Logo">
-                    </a>
-                </div>
-                <div class="time_block">
-                    <p class="name_pr">
-                        Время Ч
-                    </p>
-                </div>
-                <div class="arrow">
-                    <a onclick=scrollToStart()>
-                        <img src="./assets/images/arrow_left.svg" alt="arrow">
-                    </a>
-                </div>
+            
             </div>
+           
 
 </body>
 <script src="./assets/scripts/project_script.js"></script>
